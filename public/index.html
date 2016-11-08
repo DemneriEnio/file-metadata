@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery-2.1.0.js"></script>
+
+<style>
+body{
+	text-align: center;
+}
+#title{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+</style>
+</head>
+<body>
+<p id='title'>Upload a file to get it's size</p>
+<form action='/upload_file' method='post' enctype='multipart/form-data'>
+<input type='file' name='file'>
+<input type='submit'>
+</form>
+</body>
+</html>
